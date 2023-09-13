@@ -58,6 +58,8 @@ struct MotionAnimationView: View {
             }
         } //ZSTACK
         .frame(width: 256, height: 256)
+//        .mask(Circle())
+//        .drawingGroup()
     }
 }
 
@@ -69,3 +71,4 @@ struct MotionAnimationView_Previews: PreviewProvider {
         }
     }
 }
+

@@ -15,6 +15,7 @@
 		96A4AC592AA9745D00773295 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A4AC582AA9745D00773295 /* CardView.swift */; };
 		96A4AC5C2AA976AD00773295 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A4AC5B2AA976AD00773295 /* CustomBackgroundView.swift */; };
 		96A4AC5F2AA977FF00773295 /* ColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A4AC5E2AA977FF00773295 /* ColorExtention.swift */; };
+		96D3002F2AB15373004858D3 /* ActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D3002E2AB15373004858D3 /* ActivityAttributes.swift */; };
 		96F93CB22AAAB47F00B4DB89 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F93CB12AAAB47F00B4DB89 /* GradientButtonStyle.swift */; };
 		96FFA2C52AB03FAA00F41C68 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FFA2C42AB03FAA00F41C68 /* CustomCircleView.swift */; };
 		96FFA2C72AB0426600F41C68 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FFA2C62AB0426600F41C68 /* MotionAnimationView.swift */; };
@@ -30,6 +31,7 @@
 		96A4AC582AA9745D00773295 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		96A4AC5B2AA976AD00773295 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		96A4AC5E2AA977FF00773295 /* ColorExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtention.swift; sourceTree = "<group>"; };
+		96D3002E2AB15373004858D3 /* ActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityAttributes.swift; sourceTree = "<group>"; };
 		96F93CB12AAAB47F00B4DB89 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 		96FFA2C42AB03FAA00F41C68 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		96FFA2C62AB0426600F41C68 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			children = (
 				96A4AC5E2AA977FF00773295 /* ColorExtention.swift */,
 				96F93CB12AAAB47F00B4DB89 /* GradientButtonStyle.swift */,
+				96D3002E2AB15373004858D3 /* ActivityAttributes.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				96A4AC592AA9745D00773295 /* CardView.swift in Sources */,
 				96A4AC5F2AA977FF00773295 /* ColorExtention.swift in Sources */,
 				96033DDD2AA9BAAB00020B19 /* CustomButtonView.swift in Sources */,
+				96D3002F2AB15373004858D3 /* ActivityAttributes.swift in Sources */,
 				96F93CB22AAAB47F00B4DB89 /* GradientButtonStyle.swift in Sources */,
 				96FFA2C72AB0426600F41C68 /* MotionAnimationView.swift in Sources */,
 				96A4AC4B2AA9729400773295 /* HikingAppApp.swift in Sources */,
@@ -314,6 +318,7 @@
 				DEVELOPMENT_TEAM = M85VR7MMDY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -343,6 +348,7 @@
 				DEVELOPMENT_TEAM = M85VR7MMDY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

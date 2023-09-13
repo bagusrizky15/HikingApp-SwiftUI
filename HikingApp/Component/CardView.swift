@@ -62,6 +62,7 @@ struct CardView: View {
                 Button{
                     // ACTION
                     randomImage()
+                    
                 }label: {
                     Text("Explore More")
                         .font(.title2)
